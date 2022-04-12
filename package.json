@@ -1,0 +1,17 @@
+{
+  "name": "swc_test",
+  "version": "1.0.0",
+  "description": "Small example to reproduce underflow bug when minifying using @swc/core",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.mjs"
+  },
+  "author": "Mike Dvorscak",
+  "license": "MIT",
+  "dependencies": {
+    "@swc/core": "1.2.159"
+  },
+  "engines": {
+    "node": ">=14.18.1"
+  }
+}
